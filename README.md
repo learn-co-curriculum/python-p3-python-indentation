@@ -42,7 +42,7 @@ most common:
 - `try`, `except`, and `finally`
 - `for` and `while`
 
-## PEP 8 Rules for Indentation
+## A Foolish Consistency is the Hobgoblin of Little Minds
 
 Python Enhancement Proposal 8 (**PEP 8**, for short) gives writing conventions
 for Python programmers. One of Guido van Rossum's key observations that he
