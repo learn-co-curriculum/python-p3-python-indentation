@@ -42,13 +42,13 @@ most common:
 - `try`, `except`, and `finally`
 - `for` and `while`
 
-## A Foolish Consistency is the Hobgoblin of Little Minds
+## [A Foolish Consistency is the Hobgoblin of Little Minds](https://peps.python.org/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)
 
-Python Enhancement Proposal 8 (**PEP 8**, for short) gives writing conventions
-for Python programmers. One of Guido van Rossum's key observations that he
-kept in mind while developing Python was that _code is read much more often
-than it is written_. This means that readers need to be able to understand your
-code, so we need to adhere to certain standards while coding.
+[Python Enhancement Proposal 8 (**PEP 8**, for short)][pep 8] gives writing
+conventions for Python programmers. One of Guido van Rossum's key observations
+that he kept in mind while developing Python was that _code is read much more
+often than it is written_. This means that readers need to be able to understand
+your code, so we need to adhere to certain standards while coding.
 
 ### Spaces, not Tabs
 
@@ -133,3 +133,5 @@ my_list = [
 
 - [Python PEP 8 Style Guide](https://peps.python.org/pep-0008/)
 - [How to Write Beautiful Python Code with PEP 8](https://realpython.com/python-pep8/)
+
+[pep 8]: https://peps.python.org/pep-0008/
