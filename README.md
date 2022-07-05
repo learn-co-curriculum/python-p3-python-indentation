@@ -2,13 +2,36 @@
 
 ## Learning Goals
 
-- Understand how the interpreter uses indentation to group blocks of code
+- Understand how the interpreter uses indentation to group blocks of code.
+
+***
+
+## Key Vocab
+
+- **Interpreter**: a program that executes other programs. Python programs
+require the Python interpreter to be installed on your computer so that they
+can be run.
+- **Python Shell**: an interactive interpreter that can be accessed from the
+command line.
+- **Data Type**: a specific kind of data. The Python interpreter uses these
+types to determine which actions can be performed on different data items.
+- **Exception**: a type of error that can be predicted and handled without
+causing a program to crash.
+- **Code Block**: a collection of code that is interpreted together. Python
+groups code blocks by indentation level.
+- **Function**: a named code block that performs a sequence of actions when it
+is called.
+- **Scope**: the area in your program where a specific variable can be called.
+
+***
 
 ## Introduction
 
 Indentation is a central concept of Python programming. New lines with
 indentations are required after certain statements. Without proper
 indentation, your code will be interrupted by an `IndentationError`.
+
+***
 
 ## Why Are Indentations Necessary?
 
@@ -30,6 +53,8 @@ indentation. All code inside of a block must be indented to the same level to
 be read by the interpreter. Consistent indentation also makes your code much
 easier to read (just like in JavaScript).
 
+***
+
 ## Where Are Indentations Necessary?
 
 Indentations are required on each new line inside of a code block. Code blocks
@@ -41,6 +66,8 @@ most common:
 - `if`, `elif`, and `else`
 - `try`, `except`, and `finally`
 - `for` and `while`
+
+***
 
 ## [A Foolish Consistency is the Hobgoblin of Little Minds](https://peps.python.org/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds)
 
@@ -128,6 +155,8 @@ my_list = [
     "item_2",
 ]
 ```
+
+***
 
 ## Resources
 
